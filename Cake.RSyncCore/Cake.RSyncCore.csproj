@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>David Browne based on original work from csnewman</Authors>
+        <Description>Cake rsync extension for .net core</Description>
+        <Copyright>Copyright (c) 2017-2022 Cake Contributors</Copyright>
+        <TargetFramework>net6.0</TargetFramework>
+        <Title>Cake.RSyncCore</Title>
+        <PackageProjectUrl>https://github.com/cake-contrib/Cake.RSyncCore</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/cake-contrib/Cake.RSyncCore/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageTags>cake rsync</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cake.Common" Version="2.2.0" />
+      <PackageReference Include="Cake.Core" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>
